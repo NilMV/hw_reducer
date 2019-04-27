@@ -1,0 +1,23 @@
+{
+  "name": "hw_front",
+  "version": "1.0.0",
+  "description": "just hw project",
+  "main": "index.js",
+  "author": "Nilushka",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.2.0",
+    "redux": "^4.0.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true
+    },
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ]
+  }
+}
